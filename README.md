@@ -10,9 +10,15 @@ Ce repository Nagios vise à simplifier cette tâche en fournissant des configur
 
 Ajustez les configurations selon vos besoins spécifiques. Supervisez les métriques qui importent le plus pour votre infrastructure.
 
+
+
 Comment Utiliser Ce Repository (sur CentOS):
 
-1-Commande d'installation: yum install git
+1- Commande d'installation: 
+yum install git
 
-2-Clonage du Repository sur votre serveur Nagios: 
+2- Clonage du Repository sur votre serveur Nagios: 
+git clone https://github.com/Paracelse-ITOUA/nagios-config.git
 
+3- Importation des Configurations: 
+cp -r nagios-config/* /chemin/vers/votre/configuration/nagios/
